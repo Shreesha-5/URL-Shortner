@@ -10,7 +10,7 @@ app.use(express.json())
 app.use(express.urlencoded ({ extended:true}))
 
 app.use(cors({
-  origin:"https://url-shortner-amber-two.vercel.app",
+  origin:"https://url-shortner-frontend-5j40.onrender.com",
   credentials:true,
 }));
 
